@@ -25,6 +25,9 @@ steps:
   inputs:
     ConnectionType: 'AzureRM'
     azureSubscription: 'azure service connection'
-    appType: 'webApp'
+    appType: 'webAppLinux'
+    WebAppName: 'webappmohan9'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    RuntimeStack: 'TOMCAT|10.0-java11'
     WebAppName: 
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
