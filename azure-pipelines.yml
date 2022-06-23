@@ -29,4 +29,3 @@ steps:
     WebAppName: 'webappmohan9'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
     RuntimeStack: 'TOMCAT|10.0-java11'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
